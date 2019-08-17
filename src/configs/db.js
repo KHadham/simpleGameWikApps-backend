@@ -10,3 +10,13 @@ const connection = mysql.createConnection({
 })
 
 module.exports = connection
+
+// Username: bXIhm8VlW9
+
+// Database name: bXIhm8VlW9
+
+// Password: TDhamgnPbq
+
+// Server: remotemysql.com
+
+// Port: 3306
