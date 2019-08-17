@@ -6,7 +6,7 @@ const app = express()
 const xssFilter = require('x-xss-protection')
 const logger = require('morgan')
 
-const port = process.env.SERVER_PORT || 1700
+const port = process.env.PORT || 1700
 
 const playerRoute = require('./src/routes/player')
 const GConfig = require('./src/routes/gameConfig')
