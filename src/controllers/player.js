@@ -36,7 +36,9 @@ module.exports = {
     },
 /////// REGISTER / POST PLAYER //////////////////////////////////////////////
     CregisterPlayer: (req, res) => {
-        console.log(req.body)
+        console.log("username",req.body.username)
+        console.log("email",req.body.email)
+        console.log("password",req.body.password)
         const salt = miscHelpers.generateSalt(18)
         const passwordHash = miscHelpers.setPassword(req.body.password, salt)
 
@@ -46,7 +48,7 @@ module.exports = {
             password  : passwordHash.passwordHash,
             salt      : passwordHash.salt,
             token     : 'Test',
-            foto      : 'https://localhost:5000/' + req.file.path,
+            foto      : 'https://gamebroot.herokuapp.com/' + req.file.path,
         }
         
         PlayerModel.MregisterPlayer(data)

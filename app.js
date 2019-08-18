@@ -2,7 +2,7 @@ require('dotenv/config')
 const express = require('express')
 const bodyParser = require('body-parser')
 const app = express()
-// const cors = require('cors')
+const cors = require('cors')
 const xssFilter = require('x-xss-protection')
 const logger = require('morgan')
 
@@ -19,7 +19,7 @@ app.listen(port, () => {
 //virtual folder
 app.use('/uploads', express.static(__dirname + '/uploads'))
 
-// app.use(cors())
+app.use(cors())
 app.use(xssFilter())
 app.use(logger('dev'))
 
