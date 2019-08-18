@@ -48,6 +48,8 @@ module.exports = {
             password  : passwordHash.passwordHash,
             salt      : passwordHash.salt,
             token     : 'Test',
+            //foto      : 'http://192.168.6.169:1700/' + req.file.path,
+
             foto      : 'https://gamebroot.herokuapp.com/' + req.file.path,
         }
         
