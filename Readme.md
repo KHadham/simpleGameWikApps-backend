@@ -16,14 +16,11 @@
 - [Contributors](#contributors)
 
 ## Introduction
-  this is just a simple API for my [ `Library app`](https://github.com/kampretosjr/library-frontend) project
+  this is just a simple API of my [ `Wik Game app`](https://github.com/kampretosjr/simpleGameWikApps) project
 
 ## Features
-* users can get book data 
-* users can insert book data and upload photo 
-* users can access their inserted book data and uploaded photo 
-* users can see their history activity when borrowed book 
-* you can only see data in JSON except for uploaded photo,you can see image instead
+* users can get leaderboard data 
+* users can insert leaderboard data 
 
 
 ## Requirements
@@ -53,23 +50,10 @@
  
 6. To see the example result in postman ,just click this button then import to your postman
 
-    [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/collections/0d2f608ea7421933adc9)
+    [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/collections/930884a4b89fb01584a2)
 
 
 
 
-## Contributors
-<center>
-  <table>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/rizal271">
-          <img width="200" src="https://avatars0.githubusercontent.com/u/33866110?s=460&v=4" alt="Khadam ikhwanus shofa"><br/>
-          <sub><b>Khadam ikhwanus shofa</b></sub>
-        </a>
-      </td>
-    </tr>
-  </table>
-</center>
 
 #
