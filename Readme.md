@@ -13,7 +13,6 @@
 - [Features](#features)
 - [Requirements](#requirements)
 - [Usage](#usage-for-development)
-- [Contributors](#contributors)
 
 ## Introduction
   this is just a simple API of my [ `Wik Game app`](https://github.com/kampretosjr/simpleGameWikApps) project
